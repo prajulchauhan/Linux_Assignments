@@ -3,12 +3,8 @@
 In this section we will try to understand various linux basic commands, file tree and linux ssh.
 
 ---
-# Assignments
+## Assignments
 --- 
-
----
-# BASIC COMMANDS
----
 
 ---
 ### Must Do
