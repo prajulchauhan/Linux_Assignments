@@ -58,7 +58,6 @@ In this section we will try to understand service management, file sharing manag
 
 ---
 #### Good to Do
----
 
 - Change the SFTP port of ftp server and than copy the file at remote system after change the port.
 - Store the apt/yum packages locally on ftp server and Now other system within same network can install the pacakges from ftp server.
