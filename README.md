@@ -1,2 +1,1 @@
-# ninja_program_linux
-assignments for linux 
+Hands on problem statements on Linux!!
