@@ -22,23 +22,23 @@ In this section we will try to understand various runlevel, text processing comm
 - Check if nginx and openssh-server installed and start the nginx service before ssh service start.
 
 --- 
-## TEXT PROCESSING
+### TEXT PROCESSING
 ---
 
 ---
-### Problem 1
+#### Problem 1
 ---
 
 * write an awk script to print the no of lines in each file in the given directory 
 
 ---
-### Problem 2
+#### Problem 2
 ---
 
 * You will get an input having n number of rows and 2 column you have to find the sum of the difference of each column.
 
 ---
-### Problem 3
+#### Problem 3
 ---
 
 * you will get an input having n number of rows and 2n number of columns each row will contain odd column as string and even column as number if number is greater than 10 than print the string on previous column.  
@@ -55,13 +55,13 @@ samplea
 saplec  
 
 ---
-### Problem 4
+#### Problem 4
 ---
 
 * write an awk script to delete all the files of directory that are older than the given time provided in minutes.
 
 ---
-### Problem 5
+#### Problem 5
 ---
 
 * Task
@@ -83,7 +83,7 @@ C scored an average between 60 and 80 => B
 D scored an average between 80 and 90 => A  
 
 ---
-### Problem 6
+#### Problem 6
 ---
 
 * You are provided a file with four space-separated columns containing the scores of students in three subjects. The first column, contains a single character (A-Z) - the identifier of the student. The next three columns have three numbers (each between 0 and 100, both inclusive) which are the scores of the students in English, Mathematics and Science respectively.
@@ -102,17 +102,17 @@ A 25 27 50;B 35 37 75
 C 75 78 80;D 99 88 76  
 
 ---
-### Problem 7
+#### Problem 7
 ---
 
 * you will get an input as 5 columns each containing a number you have to print the max and min that can be gained by adding those columns
 
 --- 
-## USER MANAGEMENT
+### USER MANAGEMENT
 ---
 
 ---
-## Must Do
+### Must Do
 ---
 
 - create a user test1 using useradd  
@@ -125,7 +125,7 @@ C 75 78 80;D 99 88 76
 - remove group testGroup  
 
 ---
-## Good To Do
+### Good To Do
 ---
 
 - you will be given a csv file containing name, group, shell, home dir for n user. Create a shell script to add those user with provided configuration.  
