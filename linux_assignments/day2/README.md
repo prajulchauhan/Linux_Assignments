@@ -1,38 +1,46 @@
 # Introduction
+
 In this section we will try to understand various runlevel, text processing commands and user management.
 
 ---
-# Assignments
+## Assignments
 ---
---- 
-# RUNLEVEL
+
 ---
 ## Must Do
+---
+
 - Change the default boot runlevel by editing the appropriate file.
 - Alter the current runlevel WITHOUT rebooting the system.
 - Observe and display the runlevel.
 - Change the runlevel back, observe and display the new runlevel information
 
+---
 ## Good to Do
-- Check if nginx and openssh-server installed and start the nginx service before ssh service start.
 ---
 
-## References
----
-* [Runlevels and rcd](https://www.linux.com/news/introduction-services-runlevels-and-rcd-scripts)
----
+- Check if nginx and openssh-server installed and start the nginx service before ssh service start.
 
 --- 
-# TEXT PROCESSING
+## TEXT PROCESSING
 ---
+
 ---
 ### Problem 1
+---
+
 * write an awk script to print the no of lines in each file in the given directory 
+
 ---
 ### Problem 2
+---
+
 * You will get an input having n number of rows and 2 column you have to find the sum of the difference of each column.
+
 ---
 ### Problem 3
+---
+
 * you will get an input having n number of rows and 2n number of columns each row will contain odd column as string and even column as number if number is greater than 10 than print the string on previous column.  
 Sample Input  
 test 1 testa 11  
@@ -48,9 +56,14 @@ saplec
 
 ---
 ### Problem 4
+---
+
 * write an awk script to delete all the files of directory that are older than the given time provided in minutes.
+
 ---
 ### Problem 5
+---
+
 * Task
 You are provided a file with four space-separated columns containing the scores of students in three subjects. The first column, contains a single character (A-Z) - the identifier of the student. The next three columns have three numbers (each between 0 and 100, both inclusive) which are the scores of the students in English, Mathematics and Science respectively. Your task is to identify the performance grade for each student. If the average of the three scores is 80 or more, the grade is 'A'. If the average is 60 or above, but less than 80, the grade is 'B'. If the average is 50 or above, but less than 60, the grade is 'C'. Otherwise the grade is 'FAIL'.Input FormatThere will be no more than 10 rows of data. Each line will be in the format: [Identifier][Score inEnglish][Score in Math][Score in Science] Output Format For each row of data, append a space, a colon, followed by another space, and the grade. Observe the format showed in the sample output.  
 Sample Input  
@@ -71,6 +84,8 @@ D scored an average between 80 and 90 => A
 
 ---
 ### Problem 6
+---
+
 * You are provided a file with four space-separated columns containing the scores of students in three subjects. The first column, contains a single character (A-Z) - the identifier of the student. The next three columns have three numbers (each between 0 and 100, both inclusive) which are the scores of the students in English, Mathematics and Science respectively.
 Input Format
 There will be no more than 10 rows of data. Each line will be in the format:
@@ -88,17 +103,18 @@ C 75 78 80;D 99 88 76
 
 ---
 ### Problem 7
+---
+
 * you will get an input as 5 columns each containing a number you have to print the max and min that can be gained by adding those columns
 
-## References
-* https://likegeeks.com/awk-command/
----
-
 --- 
-# USER MANAGEMENT
+## USER MANAGEMENT
 ---
 
+---
 ## Must Do
+---
+
 - create a user test1 using useradd  
 - create a user test2 using adduser  
 - compare their entries in /etc/passwd file and /etc/shadow file  
@@ -108,10 +124,9 @@ C 75 78 80;D 99 88 76
 - remove user test1 and test2  
 - remove group testGroup  
 
+---
 ## Good To Do
+---
+
 - you will be given a csv file containing name, group, shell, home dir for n user. Create a shell script to add those user with provided configuration.  
-- also give them a unique default password so that they can login to their with that password and change it later  
----
-## References
-* https://www.tecmint.com/manage-users-and-groups-in-linux/
----
+- also give them a unique default password so that they can login to their with that password and change it later.
