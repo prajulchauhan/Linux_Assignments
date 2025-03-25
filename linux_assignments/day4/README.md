@@ -1,10 +1,9 @@
-# Introduction
+## Introduction
+
 In this section we will try to understand Disk managemet, inode management, LVM and system resource management.
 
 ---
-## Assignments
----
-
+### Assignments
 ---
 ### DISK MANAGEMENT 
 ---
