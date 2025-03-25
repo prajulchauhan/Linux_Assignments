@@ -2,34 +2,35 @@
 In this section we will try to understand various file permission, package management, cron and process management.
 
 ---
-# Assignments
+## Assignments
 ---
+
 --- 
-# FILE PERMISSION
+### FILE PERMISSION
 ---
-## Must Do
+#### Must Do
+---
+
 - Create a shell script for hello world with name ninja.sh via root user
 - Verify the permission of ninja.sh
 - Execute the script, if it didn't get executed give appropriate permissions for root user.
 - Switch to normal user and execute ninja.sh, if it didn't get executed give appropriate ownership to user (do not change the owner of file)
 - Move ninja.sh to a path variable use it as a binary ie invoke it from anywhere.
 
-## Good to Do
+---
+#### Good to Do
+----
+
 - Learn about SUID, SGID and sticky bit.
 - And Set if for a dummy file.
 - Explore how SUID, SGID is used for ***passwd***.
----
 
-## References
----
-* https://www.thegeekdiary.com/understanding-basic-file-permissions-and-ownership-in-linux/
-* https://www.tutorialspoint.com/unix/unix-file-permission.htm
----
 
 --- 
-# PACKAGE MANAGEMENT
+### PACKAGE MANAGEMENT
 ---
-### Must Do
+#### Must Do
+---
 
 * Locate and explore the directories containing repository definitions.
 * Practice enabling and disabling epel repository in Centos system.
@@ -39,21 +40,22 @@ In this section we will try to understand various file permission, package manag
 * Note packages and make a list of their dependencies, install and run them.
 * Perform operations to find, view and remove the specific packages.
 
-### Good to Do
+---
+#### Good to Do
+---
 
 * Manipulate packages and repositories
 * Installs portmaster and uses it to update installed ports.
 * Install nodejs 10.x using source code.
 * Install and setup MySQL 5.7 in non interactive mode.
 
-## References
-* http://www.informit.com/articles/article.aspx?p=2118682&seqNum=3
----
 
 --- 
-# PROCESS MANAGEMENT
+### PROCESS MANAGEMENT
 ---
-## Must Do
+#### Must Do
+---
+
 - Display all the users processes
 - Highlight running processes in top and sort the processes in descending order of CPU utilisation and close the application with  highest CPU utilisation.
 - System is running multiple processes and among which one process is transferring files over the remote system, how do I will give this process the highest priority.
@@ -67,26 +69,26 @@ In this section we will try to understand various file permission, package manag
 - Kill all process that belongs to a particular user
 - Display the process ID numbers of the zombie processes.
 
-
-## Good to Do
--  List out all system calls used for process management and write a short description on it with the example on the implementation.
 ---
+#### Good to Do
+---
+-  List out all system calls used for process management and write a short description on it with the example on the implementation.
 
 --- 
-# CRON
+### CRON
+---
+#### Must Do
 ---
 
-## Must Do
 - Have clear understanding of all crontab fields.
 - Create 2 users such that one user can setup cron and other can't.
 - Create a file that holds the information whenever the system boots.
 - Clear cache of your system every 2 hours between 10am to 8pm daily.
 - Append current system timestamp in file every 15 seconds.
 
-## Good To Do
-- Rotate system log file every 35 minutes using crontab.
-- Send a broadcast message to all logged-in users every 2nd and 4th monday of a month at 3pm
-
-## References
-* [Linux Crontab](https://www.educba.com/linux-crontab/)
 ---
+#### Good To Do
+---
+
+- Rotate system log file every 35 minutes using crontab.
+- Send a broadcast message to all logged-in users every 2nd and 4th monday of a month at 3PM.
